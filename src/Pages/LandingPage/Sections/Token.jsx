@@ -43,13 +43,17 @@ function Token() {
           everyactivities within the BenzSwap protocol
         </p>
       </div>
-      <div className="gradient-border-box grid lg:grid-cols-3 md:grid-cols-2 items-center gap-7 gap-y-[3rem] lg:p-20 sm:p-5 p-9 bg-[#212226] rounded-2xl">
+      <div className="gradient-border-box grid lg:grid-cols-3 grid-cols-2 gap-7 gap-y-[3rem] lg:p-20 p-5 bg-[#212226] rounded-2xl align-top items-start">
       {feature.map(item => (
-        <div key={item.id} className="body lg:w-[450px] w-[90%]">
-          <img src={item.img} alt=""  className="img bg-[#52585c] lg:w-[80px] w-[50px] lg:p-5 p-2 rounded-full"/>
-          <h3 className='lg:text-xl text-lg font-semibold my-3'>{item.name}</h3> {/* Use item.name instead of item.img */}
+        <div key={item.id} className="body lg:w-[450px] w-[100%] h-[13rem] flex flex-col justify-evenly">
+          <div className="">
+            <img src={item.img} alt=""  className="img bg-[#52585c] lg:w-[80px] w-[50px] lg:p-5 p-2 rounded-full"/>
+            <h3 className='lg:text-xl text-base font-semibold my-3'>{item.name}</h3>
+          </div>
 
-          <button className='p-2 px-6 rounded-lg border-[1px] lg:text-base text-sm font-semibold my-5 border-[#0193FA] hover:transition-[0.8s] hover:bg-[#0193FA] hover:scale-[1.1] relative'>Learn More</button>
+          <div className="">
+            <button className='lg:p-2 p-1 lg:px-6 px-2 rounded-lg border-[1px] lg:text-base text-sm font-semibold border-[#0193FA] hover:transition-[0.8s] hover:bg-[#0193FA] hover:scale-[1.1] relative'>Learn More</button>
+          </div>
         </div>
         
       ))}

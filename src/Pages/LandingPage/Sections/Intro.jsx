@@ -50,11 +50,11 @@ function Intro() {
           trading journey.
         </p>
       </div>
-      <div className="gradient-border-box grid lg:grid-cols-2 place-items-center gap-12 gap-y-[4rem] lg:p-20 p-0 bg-[#212226] rounded-2xl">
+      <div className="gradient-border-box2 grid lg:grid-cols-2 place-items-center gap-12 gap-y-[4rem] lg:p-20 p-0 bg-[#212226] rounded-2xl">
       {feature.map(item => (
-        <div key={item.id} className="body token lg:w-[450px] w-[90%] text-justify">
+        <div key={item.id} className="body token lg:w-[450px] w-[90%]">
           <img src={item.img} alt=""  className="img bg-[#52585c] lg:w-[80px] w-[50px] lg:p-5 p-2 rounded-full"/>
-          <h3 className='text-xl font-semibold my-3'>{item.name}</h3> {/* Use item.name instead of item.img */}
+          <h3 className='text-xl font-semibold my-3'>{item.name}</h3>
           <p>{item.description}</p>
           <button className='p-2 px-6 rounded-lg border-[1px] font-semibold my-5 border-[#0193FA] hover:transition-[0.8s] hover:bg-[#0193FA] hover:scale-[1.1] relative'>Learn More</button>
         </div>

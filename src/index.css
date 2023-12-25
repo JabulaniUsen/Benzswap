@@ -13,8 +13,15 @@
   border: 1px solid; 
   border-image: linear-gradient(to right, #8c61ef, #3DC6EE);
   border-image-slice: 1; 
-  border-radius: 15px; /* Set the desired border radius */
-  box-sizing: border-box; /* Ensure padding and border are included in the box size */
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.gradient-border-box2 {
+  border: 1px solid; 
+  border-image: linear-gradient(to right, #8c61ef, #3DC6EE);
+  border-image-slice: 1; 
+  border-radius: 15px;
+  box-sizing: border-box;
 }
 
 .token {
@@ -30,7 +37,7 @@
     box-sizing: border-box;
     padding: 20px;
   }
-  .gradient-border-box{
+  .gradient-border-box2{
     border: none;
     padding: 20px 0;
   }

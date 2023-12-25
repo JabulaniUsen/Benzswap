@@ -17,7 +17,7 @@ function Roadmap() {
         <div className="w-[350px] lg:h-[350px] lg:py-5 lg:mr-[-6px] lg:border-none border-[#dadada] border-b-[1px] item lg:m-0 m-auto py-12">
           <img src={up} className='mr-[-20px] hidden lg:block' alt="" />
           <div className="text-center lg:mt-[-100px] flex flex-col items-center gap-3">
-            <h2 className='py-1 border-b-2 border-[#3dc6ee] text-xl font-bold'>2022 Q3</h2>
+            <h2 className='py-1 border-b-2 border-[#3dc6ee] text-xl font-bold'>Phase 1</h2>
             <ul>
               <li>Concept Creation</li>
               <li>Benzswap Branding Begins</li>
@@ -29,7 +29,7 @@ function Roadmap() {
         <div className="w-[350px] lg:h-[350px] lg:py-5 mb-0 lg:justify-end lg:relative lg:border-none border-[#dadada] border-b-[1px] item lg:m-0 m-auto py-12">
           <img src={down} className='lg:absolute lg:bottom-0 hidden lg:block' alt="" />
           <div className="text-center lg:mt-[70px] flex flex-col items-center gap-3">
-            <h2 className='py-1 border-b-2 border-[#3dc6ee] text-xl font-bold'>2022 Q4</h2>
+            <h2 className='py-1 border-b-2 border-[#3dc6ee] text-xl font-bold'>Phase 2</h2>
             <ul>
               <li>White Paper</li>
               <li>Pitch Deck</li>
@@ -41,7 +41,7 @@ function Roadmap() {
         <div className="w-[350px] lg:h-[350px] py-5 lg:ml-[-6px] item lg:m-0 m-auto pb-10">
           <img src={up} alt="" className='hidden lg:block' />
           <div className="text-center lg:mt-[-100px] flex flex-col items-center gap-3">
-            <h2 className='py-1 border-b-2 border-[#3dc6ee] text-xl font-bold'>2022 Q5</h2>
+            <h2 className='py-1 border-b-2 border-[#3dc6ee] text-xl font-bold'>Phase 3</h2>
             <ul>
               <li>BenzSwap Development Begins</li>
               <li>BenzSwap Testnet</li>
