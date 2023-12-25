@@ -16,3 +16,22 @@
   border-radius: 15px; /* Set the desired border radius */
   box-sizing: border-box; /* Ensure padding and border are included in the box size */
 }
+
+.token {
+  border: none; 
+}
+
+@media screen and (max-width: 768px) {
+  .token {
+    border: 1px solid; 
+    border-image: linear-gradient(to right, #8c61ef, #3DC6EE);
+    border-image-slice: 1; 
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .gradient-border-box{
+    border: none;
+    padding: 20px 0;
+  }
+}

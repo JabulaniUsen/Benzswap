@@ -3,11 +3,11 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='hero text-center '>
-        <div className="innerHero flex flex-col h-[100vh] bg-[#1a1d21] justify-center items-center gap-2">
+        <div className="innerHero flex flex-col lg:h-[100vh] lg-[60vh] lg:p-0 py-10 bg-[#1a1d21] justify-center items-center gap-2">
             <h3 className='text-white lg:text-xl text-base'>Welcome to Benszwap</h3>
             <h1 className='lg:text-[2.5rem] text-3xl text-white font-black lg:w-[500px] w-[300px]'>
-                Decentralized Exchange Designed for  
-                <span className='text-[#0193FA]'> all Polygon</span> Network Users
+              All inclusive Automated Market Marker & 
+              <span className='text-[#0193FA]'> Decentralized</span> exchange.
             </h1>
             <p className='lg:w-[480px] w-[350px] text-sm lg:text-base text-white mb-6 mt-2'>seamlessly exchange tokens via smart contracts and without the need for a custodial wallet to hold assets of the users.</p>
             <div className="buttons flex gap-5">

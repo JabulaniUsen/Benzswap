@@ -38,10 +38,9 @@ function Token() {
       <div className="header text-center m-auto flex flex-col justify-center items-center">
         <h2 className='text-3xl font-bold'>The $BENZ <span className='text-[#0193FA]'>Token</span></h2>
         <p className='my-[25px] lg:w-[600px] w-[90%]'>
-          Benzswap protocol will provide users on the Polygon 
-          blockchain a seamless means to exchange tokens via 
-          smart contracts and without the need for a custodial 
-          wallet to hold assets of the users.
+          $BENZ token is the native token of the BenzSwap protocol. 
+          It will serve as the utility token that powers 
+          everyactivities within the BenzSwap protocol
         </p>
       </div>
       <div className="gradient-border-box grid lg:grid-cols-3 md:grid-cols-2 items-center gap-7 gap-y-[3rem] lg:p-20 sm:p-5 p-9 bg-[#212226] rounded-2xl">

@@ -41,15 +41,18 @@ function Intro() {
       <div className="header text-center m-auto flex flex-col justify-center items-center">
         <h2 className='text-3xl font-bold'>Introducing <span className='text-[#0193FA]'>BENZSWAP</span></h2>
         <p className='my-[25px] lg:w-[600px] w-[80%]'>
-          Benzswap protocol will provide users on the Polygon 
-          blockchain a seamless means to exchange tokens via 
-          smart contracts and without the need for a custodial 
-          wallet to hold assets of the users.
+          BenzSwap Protocol is dedicated to enhancing your trading 
+          experience by introducing an innovative solution - the 
+          Smart Trade AI. In a dynamic and ever-evolving 
+          cryptocurrency market, trading can be both exhilarating 
+          and challenging. With the Smart Trade AI, we're introducing 
+          a powerful tool designed to simplify and elevate your 
+          trading journey.
         </p>
       </div>
-      <div className="gradient-border-box grid lg:grid-cols-2 gap-12 gap-y-[4rem] lg:p-20 p-10 bg-[#212226] rounded-2xl">
+      <div className="gradient-border-box grid lg:grid-cols-2 place-items-center gap-12 gap-y-[4rem] lg:p-20 p-0 bg-[#212226] rounded-2xl">
       {feature.map(item => (
-        <div key={item.id} className="body lg:w-[450px] w-[90%] text-justify">
+        <div key={item.id} className="body token lg:w-[450px] w-[90%] text-justify">
           <img src={item.img} alt=""  className="img bg-[#52585c] lg:w-[80px] w-[50px] lg:p-5 p-2 rounded-full"/>
           <h3 className='text-xl font-semibold my-3'>{item.name}</h3> {/* Use item.name instead of item.img */}
           <p>{item.description}</p>
