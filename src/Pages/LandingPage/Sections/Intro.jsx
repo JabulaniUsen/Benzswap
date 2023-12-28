@@ -12,13 +12,13 @@ function Intro() {
       id:1, 
       img: dollar, 
       name: 'Unlimited token swap', 
-      description: 'BenzSwap protocol will allow users to swap one token for another through the use of automated liquidity pools powered by the Benzswap Protocol smart contracts.'
+      description: 'BenzSwap protocol will allow users to swap one token for another through the use of automated liquidity pools powered by the BenzSwap Protocol smart contracts.'
    },
    { 
     id:2, 
       img: liquidity, 
       name: 'Liquidity Pools', 
-      description: 'Liquidity pools are created when two different tokens are added in equal amount  on the benzswap exchange to allow them to be traded against each other.'
+      description: 'Liquidity pools are created when two different tokens are added in equal amount on the BenzSwap exchange to allow them to be traded against each other.'
     },
     { 
       id:3, 
@@ -30,7 +30,7 @@ function Intro() {
       id:4, 
       img: down, 
       name: 'Unlimited token swap', 
-      description: 'Benzswap will be built on the Shardeum chain; therefore, users will experience lower transaction fees compared to other available blockchains'
+      description: 'BenzSwap will be built on the Shardeum chain; therefore, users will experience lower transaction fees compared to other available blockchains'
     },
     { 
       id:5, 

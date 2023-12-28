@@ -10,7 +10,7 @@ function Roadmap() {
       <img src={bg2} alt="" className='absolute top-[-100px]  right-8 w-[1000px]' />
       <img src={bg1} alt="" className='absolute top-[-100px] left-8 w-[1000px]' />
       <div className="header text-center m-auto flex flex-col justify-center items-center">
-        <h2 className='text-3xl text-white font-bold'>Benzswap <span className='text-[#0193FA]'>Roadmap</span></h2>
+        <h2 className='text-3xl text-white font-bold'>BenzSwap <span className='text-[#0193FA]'>Roadmap</span></h2>
       </div>
 
       <div className="flex justify-center flex-col lg:flex-row item-center py-20 text-white">
@@ -20,9 +20,9 @@ function Roadmap() {
             <h2 className='py-1 border-b-2 border-[#3dc6ee] text-xl font-bold'>Phase 1</h2>
             <ul>
               <li>Concept Creation</li>
-              <li>Benzswap Branding Begins</li>
-              <li>Benzswap Branding Finanlized</li>
-              <li>Benzswap Social Media</li>
+              <li>BenzSwap Branding Begins</li>
+              <li>BenzSwap Branding Finanlized</li>
+              <li>BenzSwap Social Media</li>
             </ul>
           </div>
         </div>
