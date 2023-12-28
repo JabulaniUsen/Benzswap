@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='hero text-center '>
-        <div className="innerHero flex flex-col lg:h-[100vh] h-[40vh] lg:p-0 p-10 bg-[#1a1d21] justify-center items-center gap-2">
+        <div className="innerHero flex flex-col lg:h-[100vh] h-[70vh] lg:p-0 p-10 bg-[#1a1d21] justify-center items-center gap-2">
             <h3 className='text-white lg:text-xl text-base'>Welcome to Benszwap</h3>
             <h1 className='lg:text-[2.5rem] text-2xl text-white font-black lg:w-[500px] w-[300px]'>
               All inclusive Automated Market Maker & 
