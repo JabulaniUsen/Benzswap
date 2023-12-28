@@ -31,7 +31,7 @@ function Token() {
     }
   ]
   return (
-     <div className='lg:px-[12rem] px-[2rem] py-[5rem] bg-[#1a1d21] text-white relative'>
+     <div className='lg:px-[12rem] px-[2rem] py-[5rem] bg-[#1a1d21] text-white relative overflow-x-hidden'>
       <img src={bg2} alt="" className='absolute top-0  right-8 w-[1000px]' />
       <img src={bg1} alt="" className='absolute top-[-100px] left-8 w-[1000px]' />
       
@@ -43,7 +43,7 @@ function Token() {
           everyactivities within the BenzSwap protocol
         </p>
       </div>
-      <div className="gradient-border-box grid lg:grid-cols-3 grid-cols-2 gap-7 gap-y-[3rem] lg:p-20 p-5 bg-[#212226] rounded-2xl align-top items-start">
+      <div className="gradient-border-box grid lg:grid-cols-3 grid-cols-2 gap-7 gap-y-[3rem] lg:p-20 p-5 bg-[#212226] rounded-2xl ">
       {feature.map(item => (
         <div key={item.id} className="body lg:w-[450px] w-[100%] h-[13rem] flex flex-col justify-evenly">
           <div className="">

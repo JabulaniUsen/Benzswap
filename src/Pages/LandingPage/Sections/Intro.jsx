@@ -31,12 +31,30 @@ function Intro() {
       img: down, 
       name: 'Unlimited token swap', 
       description: 'Benzswap will be built on the Polygon chain therefore transaction fees experienced will be low compared to other blockchains available.'
+    },
+    { 
+      id:5, 
+      img: growth, 
+      name: 'Smart Trade AI', 
+      description: 'Benzswap as an all inclusive decentralized exchange has made trading easy and fast for newbies in the crypto and Web3 industry through Smart Trade AI. Users can complete transactions just by interacting with the Smart Trade AI.'
+    },
+    { 
+      id:6, 
+      img: liquidity, 
+      name: 'Smart Predict', 
+      description: 'In our continuous quest to redefine decentralized finance, we are proud to present Smart Predict AI, a revolutionary addition to the BenzSwap ecosystem. Smart Predict AI harnesses the power of artificial intelligence to provide users with predictive insights into the dynamic cryptocurrency market.'
+    },
+    {
+      id: 7,
+      img: dollar,
+      name: 'P2P',
+      description: "P2P trading on BenzSwap allows users to directly interact with one another, eliminating the need for intermediary entities and providing a more seamless, trustless, and secure trading experience."
     }
   ]
   return (
-     <div className='lg:px-[8rem] px-2 py-[5rem] bg-[#1a1d21] text-white relative'>
+     <div className='lg:px-[8rem] px-2 py-[5rem] bg-[#1a1d21] text-white relative overflow-x-hidden'>
       <img src={bg2} alt="" className='absolute top-0  right-8 w-[1000px]' />
-      <img src={bg1} alt="" className='absolute top-[-100px] left-8 w-[1000px]' />
+      {/* <img src={bg1} alt="" className='absolute top-[-100px] left-8 w-[1000px]' /> */}
       
       <div className="header text-center m-auto flex flex-col justify-center items-center">
         <h2 className='text-3xl font-bold'>Introducing <span className='text-[#0193FA]'>BENZSWAP</span></h2>

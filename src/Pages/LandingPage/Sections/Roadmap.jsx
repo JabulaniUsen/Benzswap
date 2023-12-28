@@ -6,7 +6,7 @@ import bg2 from '../../../assets/Vector2.png'
 
 function Roadmap() {
   return (
-    <div className='relative py-10 bg-[#1a1d21]'>
+    <div className='relative py-10 bg-[#1a1d21] overflow-x-hidden'>
       <img src={bg2} alt="" className='absolute top-[-100px]  right-8 w-[1000px]' />
       <img src={bg1} alt="" className='absolute top-[-100px] left-8 w-[1000px]' />
       <div className="header text-center m-auto flex flex-col justify-center items-center">
