@@ -30,7 +30,7 @@ function Intro() {
       id:4, 
       img: down, 
       name: 'Unlimited token swap', 
-      description: 'Benzswap will be built on the Polygon chain therefore transaction fees experienced will be low compared to other blockchains available.'
+      description: 'Benzswap will be built on the Shardeum chain; therefore, users will experience lower transaction fees compared to other available blockchains'
     },
     { 
       id:5, 
@@ -58,7 +58,7 @@ function Intro() {
       
       <div className="header text-center m-auto flex flex-col justify-center items-center">
         <h2 className='text-3xl font-bold'>Introducing <span className='text-[#0193FA]'>BENZSWAP</span></h2>
-        <p className='my-[25px] lg:w-[600px] w-[80%]'>
+        <p className='my-[25px] lg:w-[600px] lg:text-base text-sm'>
           BenzSwap Protocol is dedicated to enhancing your trading 
           experience by introducing an innovative solution - the 
           Smart Trade AI. In a dynamic and ever-evolving 

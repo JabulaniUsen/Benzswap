@@ -37,7 +37,7 @@ function Token() {
       
       <div className="header text-center m-auto flex flex-col justify-center items-center">
         <h2 className='text-3xl font-bold'>The $BENZ <span className='text-[#0193FA]'>Token</span></h2>
-        <p className='my-[25px] lg:w-[600px] w-[90%]'>
+        <p className='my-[25px] lg:w-[600px] lg:text-base text-sm'>
           $BENZ token is the native token of the BenzSwap protocol. 
           It will serve as the utility token that powers 
           everyactivities within the BenzSwap protocol
