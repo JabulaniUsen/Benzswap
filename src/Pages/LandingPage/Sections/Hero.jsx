@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className='hero text-center '>
         <div className="innerHero flex flex-col lg:h-[100vh] h-[70vh] lg:p-0 p-10 bg-[#1a1d21] justify-center items-center gap-2">
-            <h3 className='text-white lg:text-xl text-base'>Benszwap</h3>
+            <h3 className='text-white lg:text-xl text-base'>Welcome to BenzSwap</h3>
             <h1 className='lg:text-[2.5rem] text-2xl lg:leading-10 text-white font-black lg:w-[500px]'>
               ALL INCLUSIVE AUTOMATED MARKET MAKER & 
               <span className='text-[#0193FA]'> DECENTRALIZED</span> EXCHANGE.
